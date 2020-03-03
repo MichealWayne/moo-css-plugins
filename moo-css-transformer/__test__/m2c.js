@@ -1,0 +1,1 @@
+const {m2c} = require('../');
