@@ -1,0 +1,151 @@
+{
+  "pages": [
+    {
+      "tagName": "body",
+      "sketchInfo": {
+        "type": "page"
+      },
+      "props": {
+        "style": "position:absolute;top:0px;left:0px;width:0px;height:0px;",
+        "children": [
+          {
+            "tagName": "div",
+            "sketchInfo": {
+              "type": "artboard"
+            },
+            "props": {
+              "style": "position:absolute;top:152px;left:257px;width:750px;height:1334px;",
+              "children": [
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "symbolInstance"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:0px;left:0px;width:750px;height:128px;",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "img",
+                  "sketchInfo": {
+                    "type": "bitmap"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:169px;left:121px;width:76px;height:93px;",
+                    "src": "images/9346ca49147854673f7e1ce3dfab9a09f848152b.png",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "p",
+                  "sketchInfo": {
+                    "type": "text"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:369px;left:118px;width:64px;height:32px;color:rgba(84,84,84,1);font-size:32px;font-family:SourceHanSansCN-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;text-align:left;line-height:;",
+                    "children": [
+                      "周报"
+                    ]
+                  }
+                },
+                {
+                  "tagName": "p",
+                  "sketchInfo": {
+                    "type": "text"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:353px;left:316px;width:100px;height:50px;color:rgba(84,84,84,1);font-size:50px;font-family:SourceHanSansCN-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;text-align:left;line-height:;",
+                    "children": [
+                      "周报"
+                    ]
+                  }
+                },
+                {
+                  "tagName": "p",
+                  "sketchInfo": {
+                    "type": "text"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:341px;left:524px;width:128px;height:64px;color:rgba(84,84,84,1);font-size:64px;font-family:SourceHanSansCN-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;text-align:left;line-height:;",
+                    "children": [
+                      "周报"
+                    ]
+                  }
+                },
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "oval"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:474px;left:108px;width:102px;height:102px;border-color:rgba(151,151,151,1);border-width:1px;border-style:dash;",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "oval"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:807px;left:108px;width:102px;height:102px;border-color:rgba(151,151,151,1);border-width:1px;border-style:dash;",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "oval"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:1105px;left:108px;width:102px;height:102px;border-color:rgba(151,151,151,1);border-width:1px;border-style:dash;",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "oval"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:645px;left:108px;width:102px;height:102px;border-color:rgba(255,160,160,1);border-width:5px;border-style:dash;",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "rectangle"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:961px;left:0px;width:750px;height:373px;border-color:rgba(151,151,151,1);border-width:1px;border-style:dash;",
+                    "children": []
+                  }
+                },
+                {
+                  "tagName": "div",
+                  "sketchInfo": {
+                    "type": "star"
+                  },
+                  "props": {
+                    "style": "position:absolute;top:474px;left:324px;width:102px;height:102px;border-color:rgba(151,151,151,1);border-width:1px;border-style:dash;",
+                    "children": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tagName": "div",
+      "sketchInfo": {},
+      "props": {
+        "style": "",
+        "children": []
+      }
+    }
+  ]
+}

@@ -1,12 +1,19 @@
 {
   "name": "moo-css-web",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "mvdom data to html and css file.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": ""
+    "test": "node ./__test__/",
+    "build": "tsc"
   },
-  "author": "Micheal Wang",
-  "license": "ISC",
-  "dependencies": {}
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "typescript": "^3.4.4"
+  },
+  "keywords": [
+    "moo-css"
+  ],
+  "author": "MichealWayne",
+  "license": "ISC"
 }

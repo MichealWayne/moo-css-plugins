@@ -2,9 +2,15 @@
   "name": "moo-css-sketch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "jszip": "^3.2.2",
+    "mime-types": "^2.1.26"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Micheal Wang",
   "license": "ISC",

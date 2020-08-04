@@ -1,0 +1,760 @@
+{
+    "tagName": "body",
+    "props": {
+        "style": {
+            "position": "absolute",
+            "top": "0px",
+            "left": "0px",
+            "width": "0px",
+            "height": "0px",
+            "borderWidth": 0,
+            "backgroundColor": "transparent"
+        },
+        "children": [
+            {
+                "tagName": "div",
+                "props": {
+                    "style": {
+                        "position": "absolute",
+                        "top": "0px",
+                        "left": "0px",
+                        "width": "686px",
+                        "height": "324px",
+                        "borderWidth": 0,
+                        "backgroundColor": "transparent"
+                    },
+                    "children": [
+                        {
+                            "tagName": "div",
+                            "props": {
+                                "style": {
+                                    "position": "absolute",
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "width": "686px",
+                                    "height": "324px",
+                                    "overflow": "hidden",
+                                    "boxShadow": "0px 0px 10px 4px rgba(221,221,221,0.16)",
+                                    "backgroundColor": "rgba(255,255,255,1)",
+                                    "borderRadius": "16px"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "div",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "0px",
+                                                "left": "0px",
+                                                "width": "718px",
+                                                "height": "145px",
+                                                "opacity": 0.4000000059604645,
+                                                "backgroundImage": "linear-gradient(213deg, rgba(219,225,243,1) 0%,rgba(181,192,234,1) 63.444924464826016%,rgba(139,155,215,1) 100%)",
+                                                "borderRadius": "16px"
+                                            },
+                                            "children": []
+                                        },
+                                        "id": "48F856A8-DDCF-45ED-9E15-32CBC9BFE734",
+                                        "name": "矩形",
+                                        "rect": {
+                                            "x": 0.25,
+                                            "y": 0,
+                                            "width": 718.0810706886241,
+                                            "height": 145
+                                        }
+                                    }
+                                ]
+                            },
+                            "id": "1B3CA453-E627-47B8-AD7A-039074FF1736",
+                            "name": "蒙版",
+                            "rect": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 686,
+                                "height": 324
+                            }
+                        }
+                    ]
+                },
+                "id": "9F3F16A6-7FAD-43DB-94CF-05ADACE33783",
+                "name": "矩形",
+                "rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 686,
+                    "height": 324,
+                    "mX": 343,
+                    "mY": 162,
+                    "x1": 686,
+                    "y1": 324
+                }
+            },
+            {
+                "tagName": "p",
+                "props": {
+                    "style": {
+                        "position": "absolute",
+                        "top": "187px",
+                        "left": "32px",
+                        "width": "385px",
+                        "height": "50px",
+                        "color": "rgba(49,49,49,1)",
+                        "fontSize": "36px",
+                        "fontFamily": "PingFangSC-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                        "textAlign": "left",
+                        "lineHeight": "normal",
+                        "whiteSpace": "nowrap"
+                    },
+                    "text": "易方达沪深300RTF联接"
+                },
+                "id": "2514F8C1-0511-4821-9A30-83931477359A",
+                "name": "易方达沪深300RTF联接",
+                "rect": {
+                    "x": 32,
+                    "y": 186.5,
+                    "width": 385,
+                    "height": 50,
+                    "mX": 224.5,
+                    "mY": 211.5,
+                    "x1": 417,
+                    "y1": 236.5
+                }
+            },
+            {
+                "tagName": "div",
+                "props": {
+                    "style": {
+                        "position": "absolute",
+                        "top": "207px",
+                        "left": "518px",
+                        "width": "136px",
+                        "height": "56px",
+                        "backgroundColor": "rgba(254,93,78,1)",
+                        "borderRadius": "8px"
+                    },
+                    "children": []
+                },
+                "id": "18F57906-745F-4CDB-ABBE-BB98D0992F78",
+                "name": "矩形",
+                "rect": {
+                    "x": 517.5,
+                    "y": 206.5,
+                    "width": 136,
+                    "height": 56,
+                    "mX": 585.5,
+                    "mY": 234.5,
+                    "x1": 653.5,
+                    "y1": 262.5
+                }
+            },
+            {
+                "tagName": "p",
+                "props": {
+                    "style": {
+                        "position": "absolute",
+                        "top": "218px",
+                        "left": "538px",
+                        "width": "96px",
+                        "height": "33px",
+                        "color": "rgba(255,255,255,1)",
+                        "fontSize": "24px",
+                        "fontFamily": "PingFangSC-Regular,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                        "textAlign": "left",
+                        "lineHeight": "normal",
+                        "whiteSpace": "nowrap"
+                    },
+                    "text": "立即购买"
+                },
+                "id": "F808A800-86FB-4404-A042-08FB20ABDC2E",
+                "name": "立即购买",
+                "rect": {
+                    "x": 537.5,
+                    "y": 217.5,
+                    "width": 96,
+                    "height": 33,
+                    "mX": 585.5,
+                    "mY": 234,
+                    "x1": 633.5,
+                    "y1": 250.5
+                }
+            },
+            {
+                "id": "-0A61-47F1-521BE4FDF",
+                "name": "l-4沪深300指数l-5icon_list_forward",
+                "direct": "y",
+                "props": {
+                    "style": {
+                        "position": "relative"
+                    },
+                    "children": [
+                        {
+                            "id": "-1404C1E6F-0A61-47F1",
+                            "name": "l-1沪深300指数",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "24px",
+                                                "left": "32px",
+                                                "width": "209px",
+                                                "height": "50px",
+                                                "color": "rgba(54,74,127,1)",
+                                                "fontSize": "36px",
+                                                "fontFamily": "PingFangSC-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "沪深300指数"
+                                        },
+                                        "id": "404C1E6F-0A61-47F1-B7C3-709C624B93BE",
+                                        "name": "沪深300指数",
+                                        "rect": {
+                                            "x": 32,
+                                            "y": 24,
+                                            "width": 209,
+                                            "height": 50,
+                                            "mX": 136.5,
+                                            "mY": 49,
+                                            "x1": 241,
+                                            "y1": 74
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 32,
+                                "y": 24,
+                                "x1": 241,
+                                "y1": 74,
+                                "mX": 136.5,
+                                "mY": 49,
+                                "width": 209,
+                                "height": 50
+                            },
+                            "leafWrapper": true
+                        },
+                        {
+                            "id": "-221BE4FDF-C8CE-4465",
+                            "name": "l-2icon_list_forward",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "div",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "39px",
+                                                "left": "641px",
+                                                "width": "13px",
+                                                "height": "22px",
+                                                "borderWidth": 0,
+                                                "backgroundColor": "transparent"
+                                            },
+                                            "children": null
+                                        },
+                                        "id": "21BE4FDF-C8CE-4465-B0F3-1CF481CE974D",
+                                        "name": "icon_list_forward",
+                                        "rect": {
+                                            "x": 641,
+                                            "y": 39,
+                                            "width": 13,
+                                            "height": 22,
+                                            "mX": 647.5,
+                                            "mY": 50,
+                                            "x1": 654,
+                                            "y1": 61
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 641,
+                                "y": 39,
+                                "x1": 654,
+                                "y1": 61,
+                                "mX": 647.5,
+                                "mY": 50,
+                                "width": 13,
+                                "height": 22
+                            },
+                            "leafWrapper": true
+                        }
+                    ]
+                },
+                "tagName": "div",
+                "rect": {
+                    "x": 32,
+                    "y": 24,
+                    "x1": 654,
+                    "y1": 74,
+                    "mX": 343,
+                    "mY": 49,
+                    "width": 622,
+                    "height": 50
+                }
+            },
+            {
+                "id": "A6E216F-DDDD-4FDAE5E7F1E8-7C3C-448F",
+                "name": "l-3性价比投资环境良好高88分值得买入",
+                "direct": "y",
+                "props": {
+                    "style": {
+                        "position": "relative"
+                    },
+                    "children": [
+                        {
+                            "id": "-105895885-C3CA-442D",
+                            "name": "l-1性价比",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "81px",
+                                                "left": "32px",
+                                                "width": "78px",
+                                                "height": "37px",
+                                                "color": "rgba(54,74,127,1)",
+                                                "fontSize": "26px",
+                                                "fontFamily": "PingFangSC-Regular,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "性价比"
+                                        },
+                                        "id": "05895885-C3CA-442D-8CBA-AC64AF18BB11",
+                                        "name": "性价比",
+                                        "rect": {
+                                            "x": 32,
+                                            "y": 81.25,
+                                            "width": 78,
+                                            "height": 37,
+                                            "mX": 71,
+                                            "mY": 99.75,
+                                            "x1": 110,
+                                            "y1": 118.25
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 32,
+                                "y": 81.25,
+                                "x1": 110,
+                                "y1": 118.25,
+                                "mX": 71,
+                                "mY": 99.75,
+                                "width": 78,
+                                "height": 37
+                            },
+                            "leafWrapper": true
+                        },
+                        {
+                            "id": "-33F4E49CB-5702-4B94",
+                            "name": "l-3高",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "81px",
+                                                "left": "130px",
+                                                "width": "26px",
+                                                "height": "37px",
+                                                "color": "rgba(254,93,78,1)",
+                                                "fontSize": "26px",
+                                                "fontFamily": "PingFangSC-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "高"
+                                        },
+                                        "id": "3F4E49CB-5702-4B94-878B-84A2AEB3F673",
+                                        "name": "高",
+                                        "rect": {
+                                            "x": 130,
+                                            "y": 81.25,
+                                            "width": 26,
+                                            "height": 37,
+                                            "mX": 143,
+                                            "mY": 99.75,
+                                            "x1": 156,
+                                            "y1": 118.25
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 130,
+                                "y": 81.25,
+                                "x1": 156,
+                                "y1": 118.25,
+                                "mX": 143,
+                                "mY": 99.75,
+                                "width": 26,
+                                "height": 37
+                            },
+                            "leafWrapper": true
+                        },
+                        {
+                            "id": "-40A6E216F-DDDD-4FDA",
+                            "name": "l-488分",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "81px",
+                                                "left": "176px",
+                                                "width": "58px",
+                                                "height": "37px",
+                                                "color": "rgba(54,74,127,1)",
+                                                "fontSize": "26px",
+                                                "fontFamily": "PingFangSC-Regular,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "88分"
+                                        },
+                                        "id": "0A6E216F-DDDD-4FDA-8913-8F2B3BBAF023",
+                                        "name": "88分",
+                                        "rect": {
+                                            "x": 176,
+                                            "y": 81.25,
+                                            "width": 58,
+                                            "height": 37,
+                                            "mX": 205,
+                                            "mY": 99.75,
+                                            "x1": 234,
+                                            "y1": 118.25
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 176,
+                                "y": 81.25,
+                                "x1": 234,
+                                "y1": 118.25,
+                                "mX": 205,
+                                "mY": 99.75,
+                                "width": 58,
+                                "height": 37
+                            },
+                            "leafWrapper": true
+                        },
+                        {
+                            "id": "-26E02EBA5-6260-4C46",
+                            "name": "l-2投资环境良好",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "81px",
+                                                "left": "254px",
+                                                "width": "156px",
+                                                "height": "37px",
+                                                "color": "rgba(54,74,127,1)",
+                                                "fontSize": "26px",
+                                                "fontFamily": "PingFangSC-Regular,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "投资环境良好"
+                                        },
+                                        "id": "6E02EBA5-6260-4C46-B07F-CA0C83DBF307",
+                                        "name": "投资环境良好",
+                                        "rect": {
+                                            "x": 254,
+                                            "y": 81.25,
+                                            "width": 156,
+                                            "height": 37,
+                                            "mX": 332,
+                                            "mY": 99.75,
+                                            "x1": 410,
+                                            "y1": 118.25
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 254,
+                                "y": 81.25,
+                                "x1": 410,
+                                "y1": 118.25,
+                                "mX": 332,
+                                "mY": 99.75,
+                                "width": 156,
+                                "height": 37
+                            },
+                            "leafWrapper": true
+                        },
+                        {
+                            "id": "-5E5E7F1E8-7C3C-448F",
+                            "name": "l-5值得买入",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "81px",
+                                                "left": "410px",
+                                                "width": "104px",
+                                                "height": "37px",
+                                                "color": "rgba(54,74,127,1)",
+                                                "fontSize": "26px",
+                                                "fontFamily": "PingFangSC-Regular,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "值得买入"
+                                        },
+                                        "id": "E5E7F1E8-7C3C-448F-BFA0-828C1614CEBD",
+                                        "name": "值得买入",
+                                        "rect": {
+                                            "x": 410,
+                                            "y": 81.25,
+                                            "width": 104,
+                                            "height": 37,
+                                            "mX": 462,
+                                            "mY": 99.75,
+                                            "x1": 514,
+                                            "y1": 118.25
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 410,
+                                "y": 81.25,
+                                "x1": 514,
+                                "y1": 118.25,
+                                "mX": 462,
+                                "mY": 99.75,
+                                "width": 104,
+                                "height": 37
+                            },
+                            "leafWrapper": true
+                        }
+                    ]
+                },
+                "tagName": "div",
+                "rect": {
+                    "x": 32,
+                    "y": 81.25,
+                    "x1": 514,
+                    "y1": 118.25,
+                    "mX": 273,
+                    "mY": 99.75,
+                    "width": 482,
+                    "height": 37
+                }
+            },
+            {
+                "id": "-3371-4935-284AE8842",
+                "name": "l-1+34.12%l-2近一年涨幅",
+                "direct": "y",
+                "props": {
+                    "style": {
+                        "position": "relative"
+                    },
+                    "children": [
+                        {
+                            "id": "-190FD50B4-3371-4935",
+                            "name": "l-1+34.12%",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "243px",
+                                                "left": "32px",
+                                                "width": "129px",
+                                                "height": "41px",
+                                                "color": "rgba(254,93,78,1)",
+                                                "fontSize": "34px",
+                                                "fontFamily": "DIN-Medium,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "+34.12%"
+                                        },
+                                        "id": "90FD50B4-3371-4935-93B4-4D57A48FB558",
+                                        "name": "+34.12%",
+                                        "rect": {
+                                            "x": 32,
+                                            "y": 242.5,
+                                            "width": 129,
+                                            "height": 41,
+                                            "mX": 96.5,
+                                            "mY": 263,
+                                            "x1": 161,
+                                            "y1": 283.5
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 32,
+                                "y": 242.5,
+                                "x1": 161,
+                                "y1": 283.5,
+                                "mX": 96.5,
+                                "mY": 263,
+                                "width": 129,
+                                "height": 41
+                            },
+                            "leafWrapper": true
+                        },
+                        {
+                            "id": "-284AE8842-3800-43B6",
+                            "name": "l-2近一年涨幅",
+                            "direct": "x",
+                            "props": {
+                                "style": {
+                                    "position": "relative"
+                                },
+                                "children": [
+                                    {
+                                        "tagName": "p",
+                                        "props": {
+                                            "style": {
+                                                "position": "absolute",
+                                                "top": "249px",
+                                                "left": "178px",
+                                                "width": "120px",
+                                                "height": "33px",
+                                                "color": "rgba(153,153,153,1)",
+                                                "fontSize": "24px",
+                                                "fontFamily": "PingFangSC-Regular,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif",
+                                                "textAlign": "left",
+                                                "lineHeight": "normal",
+                                                "whiteSpace": "nowrap"
+                                            },
+                                            "text": "近一年涨幅"
+                                        },
+                                        "id": "84AE8842-3800-43B6-B852-FAD8E51E8BF0",
+                                        "name": "近一年涨幅",
+                                        "rect": {
+                                            "x": 178,
+                                            "y": 248.5,
+                                            "width": 120,
+                                            "height": 33,
+                                            "mX": 238,
+                                            "mY": 265,
+                                            "x1": 298,
+                                            "y1": 281.5
+                                        },
+                                        "leaf": true
+                                    }
+                                ]
+                            },
+                            "tagName": "div",
+                            "rect": {
+                                "x": 178,
+                                "y": 248.5,
+                                "x1": 298,
+                                "y1": 281.5,
+                                "mX": 238,
+                                "mY": 265,
+                                "width": 120,
+                                "height": 33
+                            },
+                            "leafWrapper": true
+                        }
+                    ]
+                },
+                "tagName": "div",
+                "rect": {
+                    "x": 32,
+                    "y": 242.5,
+                    "x1": 298,
+                    "y1": 283.5,
+                    "mX": 165,
+                    "mY": 263,
+                    "width": 266,
+                    "height": 41
+                }
+            }
+        ]
+    },
+    "id": "12537FE2-C67F-4F0A-8776-8986DCCF2BD6",
+    "name": "页面 1",
+    "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+    }
+}

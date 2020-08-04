@@ -1,0 +1,18 @@
+{
+  "name": "moo-css-react",
+  "version": "1.0.0",
+  "description": "mvdom data to jsx file.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node ./__test__/",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.12"
+  },
+  "keywords": [
+    "moo-css"
+  ],
+  "author": "MichealWayne",
+  "license": "ISC"
+}

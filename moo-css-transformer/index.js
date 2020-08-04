@@ -4,10 +4,10 @@
  * @update 2020.02.20
  */
 
-const c2m = require('./src/c2m');
+const c2m = require('./dist/c2m');
 
 
 module.exports = {
-    m2c: require('./src/m2c'),
+    m2c: require('./dist/m2c'),
     c2m
 }
