@@ -1,0 +1,5 @@
+/node_modules/*
+src/js/lib/*.js
+lib/*.js
+test/*.js
+types/*

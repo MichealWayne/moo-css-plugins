@@ -1,6 +1,6 @@
 # Moo-CSS plugins
 
-starting...
+Style automatic development.
 
 <p align="center">
     <img alt="Moo-CSS" height="100" src="https://blog.michealwayne.cn/Moo-CSS/docs/logo.png">
@@ -8,7 +8,15 @@ starting...
 
 ## 1.[moo-css-transformer](./moo-css-transformer)
 
-mini name style <-> css style.
+MooCSS transform tool.mini name style <-> css style. Version: `0.1.0`
+
+Install:
+
+``` sh
+npm i --save moo-css-transformer
+```
+
+
 
 for example:
 ```
@@ -18,6 +26,14 @@ f-tc <-> text-align: center
 ## 2.[moo-css-base](https://github.com/MichealWayne/Moo-CSS/tree/master/moo-css-base)
 
 Moo-CSS base Layer demo, for less/sass/stylus.
+
+Install:
+
+``` sh
+npm i --save moo-css-base
+```
+
+
 
 ## 3.[moo-css-sketch](./moo-css-sketch)
 
