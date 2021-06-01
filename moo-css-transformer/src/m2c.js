@@ -1,18 +1,17 @@
 const utils = require('./utils');
 const M2Cdata = require('../datas/m2c-data.json');
 const CONST = require('./const');
+const { BOX_LIST, MINI_LIST, MINI_LIST_MAP } = require('../config');
 
-const BOX_LIST = ['margin', 'padding', 'width', 'height'];
-
-function _getBasicCSS(module, minname) {
+function _getBasicCSS(moduleName, minname) {
   let cssAttr = '';
   let cssVal = '';
-  const tagMap = M2Cdata[module];
+  const tagMap = M2Cdata[moduleName];
 
   if (tagMap) {
     for (const key in tagMap) {
       if (!tagMap.hasOwnProperty(key)) continue;
-      const _tag = `${module}-${key}`;
+      const _tag = `${moduleName}-${key}`;
 
       if (
         minname.includes(_tag) &&
@@ -39,20 +38,24 @@ function _getBasicCSS(module, minname) {
  * @param {Number} viewport
  * @returns
  */
+// eslint-disable-next-line complexity
 function m2c(minname, lenUnit = 'vw', viewport = CONST.DEFAULT_SCREEN_SIZE) {
   let cssAttr = '';
   let cssVal = '';
   if (minname.includes('-')) {
-    const module = minname.split('-')[CONST.NO_ZERO];
+    const moduleName = minname.split('-')[CONST.NO_ZERO];
 
-    const basicCSS = _getBasicCSS(module, minname);
+    const basicCSS = _getBasicCSS(moduleName, minname);
     cssAttr = basicCSS.cssAttr;
     cssVal = basicCSS.cssVal;
 
     if (BOX_LIST.find(item => cssAttr.includes(item))) {
       // handle size
       const _val = cssVal.match(/\d+/g);
-      if (lenUnit !== 'px') {
+
+      if (cssVal.endsWith('per')) {
+        cssVal = `${parseInt(cssVal, 10)}%`;
+      } else if (lenUnit !== 'px') {
         let _valNum = String(utils.SizeUnit[`px2${lenUnit}`](_val[CONST.NO_ZERO], viewport));
         const _index = _valNum.indexOf('.');
         if (_index > -1) {
@@ -62,10 +65,12 @@ function m2c(minname, lenUnit = 'vw', viewport = CONST.DEFAULT_SCREEN_SIZE) {
       } else {
         cssVal += lenUnit;
       }
+    } else if (MINI_LIST.includes(cssAttr)) {
+      cssVal = MINI_LIST_MAP[cssAttr][cssVal] || cssVal;
     } else if (cssAttr.includes('color')) {
       // handle colors
       cssVal = `#${cssVal.slice(CONST.NO_ONE)}`;
-    } else if (cssVal.startsWith('_r')) {
+    } else if (moduleName === 'f' && cssVal.startsWith('_r')) {
       // handle rotate
       cssVal = `rotate(${parseInt(cssVal.replace('_r', ''), 10)}deg)`;
     } else if (cssVal.startsWith('_')) {

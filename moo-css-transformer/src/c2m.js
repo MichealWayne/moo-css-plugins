@@ -15,7 +15,7 @@ const MooValueHandler = {
   },
 
   opacity(styleVal) {
-    return `${~~(styleVal * 100)}`;
+    return `${~~(styleVal * CONST.ONE_HUNDRED)}`;
   },
 
   'font-family'(styleVal) {
@@ -28,7 +28,7 @@ const MooValueHandler = {
 
   'line-height'(styleVal) {
     if (!Number.isNaN(+styleVal)) {
-      return `${~~parseFloat(styleVal * 100)}%`;
+      return `${~~parseFloat(styleVal * CONST.ONE_HUNDRED)}%`;
     } else {
       return styleVal;
     }
