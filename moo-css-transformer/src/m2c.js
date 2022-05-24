@@ -1,3 +1,9 @@
+/**
+ * @module m2c
+ * @description moo to css
+ * @author Wayne
+ * @time 2020.02.19
+ */
 const utils = require('./utils');
 const M2Cdata = require('../datas/m2c-data.json');
 const CONST = require('./const');
@@ -10,7 +16,7 @@ function _getBasicCSS(moduleName, minname) {
 
   if (tagMap) {
     for (const key in tagMap) {
-      if (!tagMap.hasOwnProperty(key)) continue;
+      if (!utils.hasOwnProp(tagMap, key)) continue;
       const _tag = `${moduleName}-${key}`;
 
       if (

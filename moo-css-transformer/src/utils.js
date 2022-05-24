@@ -19,6 +19,16 @@ function type(val) {
 }
 
 /**
+ * @function hasOwnProp
+ * @param {Object} obj
+ * @param {string} key
+ * @returns
+ */
+function hasOwnProp(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key);
+}
+
+/**
  * @function each
  * @description traverse array
  * @param {array} array
@@ -155,4 +165,5 @@ module.exports = {
   getStyleValue,
   getStrnumInt,
   SizeUnit,
+  hasOwnProp,
 };

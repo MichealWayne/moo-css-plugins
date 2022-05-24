@@ -1,5 +1,7 @@
 /**
- * constants
+ * @constants
+ * @author Wayne
+ * @time 2020.02.19
  */
 
 const NO_ZERO = 0;
