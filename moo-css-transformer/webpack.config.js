@@ -1,6 +1,6 @@
 /**
  * moo-css-transformer webpack config
- * @author MichealWayne
+ * @author Wayne
  * @date 2021.02.21
  */
 

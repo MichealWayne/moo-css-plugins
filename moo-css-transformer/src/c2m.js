@@ -1,4 +1,10 @@
 /* eslint-disable no-bitwise */
+/**
+ * @module c2m
+ * @description css to moo
+ * @author Wayne
+ * @time 2020.02.19
+ */
 const utils = require('./utils');
 const scaner = require('./scaner');
 const C2Mdata = require('../datas/c2m-data.json');

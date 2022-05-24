@@ -4,8 +4,13 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['sonarjs'],
+  extends: [
+    'eslint:recommended',
+  ],
   parserOptions: {
     sourceType: 'module',
+  },
+  rules: {
+    'no-useless-escape': [0],
   },
 };
