@@ -1,6 +1,7 @@
 {
   "name": "moo-css-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": "Wayne",
   "description": "mvdom data to jsx file.",
   "main": "dist/index.js",
   "scripts": {
@@ -10,9 +11,11 @@
   "devDependencies": {
     "@types/node": "^13.13.12"
   },
+  "dependencies": {
+    "moo-css-transformer": "^0.1.1"
+  },
   "keywords": [
     "moo-css"
   ],
-  "author": "MichealWayne",
   "license": "ISC"
 }
