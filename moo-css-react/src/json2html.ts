@@ -2,7 +2,7 @@
  * @module json2html
  * @author Wayne
  * @Date 2020-02-28 20:36:16
- * @LastEditTime 2022-07-10 13:19:12
+ * @LastEditTime 2023-04-25 10:36:40
  */
 
 export default class JSON2HTML {
@@ -69,11 +69,11 @@ export class JSON2HTMLBuilder {
 
   // 处理子元素
   static children(json: any, handlers?: any) {
-    let children = json.props && json.props.children;
+    const children = json.props?.children;
 
     if (!children) {
-      let text = json.props.text;
-      if (text && text.startsWith('{') && text.endsWith('}') && handlers && handlers.propsList) {
+      const text = json.props.text;
+      if (text?.startsWith('{') && text.endsWith('}') && handlers && handlers.propsList) {
         handlers.propsList.push(text);
       }
       delete json.props.text;
@@ -82,7 +82,7 @@ export class JSON2HTMLBuilder {
     let html = '';
     for (const index in children) {
       if ({}.hasOwnProperty.call(children, index)) {
-        if (typeof children[index] == 'object') {
+        if (typeof children[index] === 'object') {
           html += JSON2HTML.build(children[index], handlers);
         } else {
           html += children[index];
