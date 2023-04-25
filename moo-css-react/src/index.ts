@@ -1,7 +1,7 @@
 /**
  * @namespace mvdom2web
  * @Date 2020-02-28 20:36:16
- * @LastEditTime 2022-07-10 11:19:12
+ * @LastEditTime 2023-04-25 10:39:38
  */
 
 import JSON2HTML from './json2html';
@@ -16,8 +16,8 @@ function humpToOther(value: string, symbol: string = '-') {
 }
 
 function json2Arr(obj: any) {
-  let arr: any = [];
-  for (let i in obj) {
+  const arr: string[] = [];
+  for (const i in obj) {
     arr.push(humpToOther(i) + ':' + obj[i]);
   }
   return arr;
@@ -32,28 +32,28 @@ export { getVueComponent, getReactComponent };
  * @returns
  */
 export default function handleData(config: any) {
-  let { data, handleImg, nostyle, viewport, vueBool } = config;
-  let cssTextObj: any = {};
+  const { data, handleImg, nostyle, viewport, vueBool } = config;
+  const cssTextObj: any = {};
   const _style2MooSelector = (str: string) => {
-    let _arr = str.split(':');
+    const _arr = str.split(':');
     if (!_arr[1] || _arr[1] === 'undefined') return undefined;
     return c2m.style2MooSelector(_arr[0], _arr[1]);
   };
 
   const _handleStyleProps = (props: any) => {
-    let styleList = json2Arr(props.style);
-    let classList: any = [];
+    const styleList = json2Arr(props.style);
+    const classList: any = [];
 
     if (!nostyle) {
-      let newStyle = styleList
+      const newStyle = styleList
         .filter((item: any) => {
           if (viewport && ~item.indexOf('px')) {
             // mobile
-            let arr = item.split(':');
+            const arr = item.split(':');
 
             item = `${arr[0]}:${((parseInt(arr[1]) / viewport) * 100).toFixed(4)}vw`;
           }
-          let moo = _style2MooSelector(item);
+          const moo = _style2MooSelector(item);
           if (moo) {
             classList.push(moo);
             if (!cssTextObj[moo]) cssTextObj[moo] = item;
@@ -65,14 +65,14 @@ export default function handleData(config: any) {
         .join(';');
       props.style = newStyle;
     } else {
-      let moduleClassList: any[] = [];
-      styleList.forEach((item: any) => {
+      const moduleClassList: string[] = [];
+      styleList.forEach(item => {
         if (viewport && ~item.indexOf('px')) {
           // mobile
-          let arr = item.split(':');
+          const arr = item.split(':');
           item = `${arr[0]}:${((parseInt(arr[1]) / viewport) * 100).toFixed(4)}vw`;
         }
-        let moo = _style2MooSelector(item);
+        const moo = _style2MooSelector(item);
         if (moo) {
           classList.push(moo);
 
@@ -91,19 +91,19 @@ export default function handleData(config: any) {
     }
 
     if (classList.length) {
-      let className = classList.join(' ');
-      props.className = (props.className ? props.className + ' ' : '') + className;
+      const className = classList.join(' ');
+      props.className = (props.className ? `${props.className} ` : '') + className;
       return className;
     }
   };
-  let propsList: any[] = [];
-  let htmlTxt = JSON2HTML.build(data, {
+  const propsList: any[] = [];
+  const htmlTxt = JSON2HTML.build(data, {
     handleStyle: _handleStyleProps,
     handleImg,
     propsList,
   });
   let cssTxt = '';
-  for (let selector in cssTextObj) {
+  for (const selector in cssTextObj) {
     cssTxt += `
 .${selector} {
     ${cssTextObj[selector]}
